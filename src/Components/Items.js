@@ -63,11 +63,11 @@ function Items() {
                 <div class="description description-tabs">
                     <ul id="myTab" class="nav nav-pills">
                         <li class="active"><a href="#more-information" data-toggle="tab" class="no-margin">Product Description </a></li>
-                        <li class=""><a href="#specifications" data-toggle="tab">Specifications</a></li>
-                        <li class=""><a href="#reviews" data-toggle="tab">Reviews</a></li>
+                        {/* <li class=""><a href="#specifications" data-toggle="tab">Specifications</a></li>
+                        <li class=""><a href="#reviews" data-toggle="tab">Reviews</a></li> */}
                     </ul>
                     <div id="myTabContent" class="tab-content">
-                        <div class="tab-pane fade active in" id="more-information">
+                        <div class="tab-pane fade active in show" id="more-information">
                             <br />
                             <strong>Description Title</strong>
                             <p>
@@ -75,9 +75,9 @@ function Items() {
                                 sodales porta. Etiam aliquet rutrum turpis, feugiat sodales ipsum consectetur nec.
                             </p>
                         </div>
-                        <div class="tab-pane fade" id="specifications">
+                        <div class="tab-pane fade " id="specifications">
                             <br />
-                            <dl class="">
+                            <dl class="active">
                                 <dt>Gravina</dt>
                                 <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
                                 <dd>Donec id elit non mi porta gravida at eget metus.</dd>
@@ -92,7 +92,7 @@ function Items() {
                                 <dd>Vestibulum id ligula porta felis euismod semper</dd>
                             </dl>
                         </div>
-                        <div class="tab-pane fade" id="reviews">
+                        <div class="tab-pane fade show" id="reviews">
                             <br />
                             <form method="post" class="well padding-bottom-10" onsubmit="return false;">
                                 <textarea rows="2" class="form-control" placeholder="Write a review"></textarea>
@@ -166,15 +166,10 @@ function Items() {
                 </div>
                 <hr />
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <a href="javascript:void(0);" class="btn btn-success btn-lg">Add to cart (₹129.54)</a>
+                    <div class="col-sm-12 col-md-6 col-lg-6 text-left">
+                        <a href="javascript:void(0);" class="btn btn-success btn-lg">Amazon</a>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <div class="btn-group pull-right">
-                            <button class="btn btn-white btn-default"><i class="fa fa-star"></i> Add to wishlist</button>
-                            <button class="btn btn-white btn-default"><i class="fa fa-envelope"></i> Contact Seller</button>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>

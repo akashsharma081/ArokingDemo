@@ -18,14 +18,14 @@ function Header() {
                 <div class="">
                     <div class="row">
                         <div class="col-md-3 col-xs-2">
-                            <div id="fh5co-logo" onClick={refreshPage}> <Link to="/" href="#"><img src="./images/logo.png" class="img-fluid" style={{height:"40px",width:"110px"}}/></Link></div>
+                            <div id="fh5co-logo" onClick={refreshPage}> <Link to="/" href="#"><img src="./images/logo.png" class="img-fluid" style={{height:"55px",marginTop:"-15px"}}/></Link></div>
                         </div>
                         <div class="col-md-6 col-xs-6 text-center menu-1">
                             <ul>
                                 <li class="has-dropdown" onClick={refreshPage}>
                                     <Link to="/" href="#">Shop Now</Link>
                                     <ul class="dropdown">
-                                        <li><a href="single.html" >Single Shop</a></li>
+                                        {/* <li><a href="single.html" >Single Shop</a></li> */}
                                     </ul>
                                 </li>
                                 <li onClick={refreshPage}><Link to="/About" href="#">About Us</Link></li>
@@ -34,12 +34,12 @@ function Header() {
                                
                                <li class="has-dropdown" onClick={refreshPage}>
                                     <Link to="/Services" href="#">Services</Link>
-                                    <ul class="dropdown">
+                                    {/* <ul class="dropdown">
                                         <li><a href="#">Aroking1</a></li>
                                         <li><a href="#">Aroking2</a></li>
                                         <li><a href="#">Aroking3</a></li>
                                         <li><a href="#">Aroking4</a></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
                                 <li onClick={refreshPage}><Link to='/Contact' href="#">Contact us</Link></li>
                                 <li onClick={refreshPage}><Link to='/Login' href="#">Login</Link></li>
